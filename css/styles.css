@@ -48,10 +48,11 @@ body {
   /*
     block =>
       deixa definir a altura e a largura
-      se o elemento nao tiver a largura fixa, ele pega toda a largura do container
+      se o elemento nao tiver a largura fixa, ele pega toda a largura do container (ocupa a linha toda)
   */
 }
 
 .botao_securndario {
-
+  background-color: transparent;
+  border: 2px solid var(--braco-principal);
 }
