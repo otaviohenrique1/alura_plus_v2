@@ -1,0 +1,38 @@
+:root {
+  /* Pega todo css */
+  --braco-principal: #FFFFFF;
+  --cinza-secundario: #C0C0C0;
+  --botao-azul: #167BF7;
+  --cor-de-fundo: #00030C;
+  --fonte-principal: "Inter";
+  --botao-azul-efeito: #3C92FA;
+}
+
+/*
+  se a imagem fizer sentido para o usuario => usar a tag img para colocar imagem
+  se a imagem for decorativa => colocar a imagem no background-image
+*/
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--braco-principal);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.principal {
+  background-image: url("../img/Background.png");
+  background-repeat: no-repeat;
+  /* no-repeat => imagem nao repete na tela */
+  background-size: contain;
+  /* contain => preenche todo container com a imagem */
+}
+
+.container {
+  height: 100vh;
+  /* vh => pega a toda a altura da tela */
+  /* vw => pega a toda a largura da tela */
+}
