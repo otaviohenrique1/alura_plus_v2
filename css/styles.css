@@ -35,4 +35,23 @@ body {
   height: 100vh;
   /* vh => pega a toda a altura da tela */
   /* vw => pega a toda a largura da tela */
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+  background-color: var(--botao-azul);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--braco-principal);
+  display: block;
+  /*
+    block =>
+      deixa definir a altura e a largura
+      se o elemento nao tiver a largura fixa, ele pega toda a largura do container
+  */
+}
+
+.botao_securndario {
+
 }
