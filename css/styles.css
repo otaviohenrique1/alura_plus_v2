@@ -1,6 +1,6 @@
 :root {
   /* Pega todo css */
-  --braco-principal: #FFFFFF;
+  --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
   --botao-azul: #167BF7;
   --cor-de-fundo: #00030C;
@@ -15,7 +15,10 @@
 
 body {
   background-color: var(--cor-de-fundo);
-  color: var(--braco-principal);
+  color: var(--branco-principal);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 * {
@@ -29,6 +32,8 @@ body {
   /* no-repeat => imagem nao repete na tela */
   background-size: contain;
   /* contain => preenche todo container com a imagem */
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -43,16 +48,69 @@ body {
   background-color: var(--botao-azul);
   border-radius: 5px;
   padding: 1em;
-  color: var(--braco-principal);
+  color: var(--branco-principal);
   display: block;
   /*
     block =>
       deixa definir a altura e a largura
       se o elemento nao tiver a largura fixa, ele pega toda a largura do container (ocupa a linha toda)
   */
+  text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .botao_securndario {
   background-color: transparent;
-  border: 2px solid var(--braco-principal);
+  border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+  font-size: 12px;
+  color: var(--cinza-secundario);
+}
+
+.container__titulo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
+/*
+  em => Medida relativa ao font-size do elemento (2em => 2 vezes o tamanho da fonte)
+  margin: cima direita baixo esquerda; => margin: 1em 0 2em 0;
+  padding: cima direita baixo esquerda; => padding: 1em 0 2em 0;
+  margin: vertical horizontal; => margin: 0 6em;
+  padding: vertical horizontal; => padding: 0 6em;
+*/
+
+.container__caixa {
+  margin: 0 6em;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.container__descricao {}
+
+.descricao__titulo {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+  color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+  
 }
