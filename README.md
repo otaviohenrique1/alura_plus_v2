@@ -2,8 +2,11 @@
 
 ## Descrição
 
-Projeto do curso "HTML e CSS: praticando HTML/CSS" da Alura.
-Revisão do conteudo.
+Projeto do curso "HTML e CSS: praticando HTML/CSS" da Alura. Revisão do conteudo.
+
+## Link do site
+
+- [Site](https://otaviohenrique1.github.io/alura_plus_v2/)
 
 ## Tecnologias
 
