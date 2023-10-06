@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto do curso "HTML e CSS: praticando HTML/CSS" da Alura
+Projeto do curso "HTML e CSS: praticando HTML/CSS" da Alura.
 Revisão do conteudo.
 
 ## Tecnologias
